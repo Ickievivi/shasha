@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'avoscloud-sdk' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of c:\Users\lenovo\Desktop\pin\package.json
+5 verbose readDependencies loading dependencies from c:\Users\lenovo\Desktop\pin\package.json
+6 silly cache add args [ 'avoscloud-sdk', null ]
+7 verbose cache add spec avoscloud-sdk
+8 silly cache add parsed spec { raw: 'avoscloud-sdk',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'avoscloud-sdk',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed avoscloud-sdk@*
+10 verbose addNamed "*" is a valid semver range for avoscloud-sdk
+11 silly addNameRange { name: 'avoscloud-sdk', range: '*', hasData: false }
+12 silly mapToRegistry name avoscloud-sdk
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/avoscloud-sdk
+16 verbose addNameRange registry:https://registry.npmjs.org/avoscloud-sdk not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/avoscloud-sdk
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 23:19:13
+20 verbose request id 4e0b33bd5086efb1
+21 http request GET https://registry.npmjs.org/avoscloud-sdk
+22 http 200 https://registry.npmjs.org/avoscloud-sdk
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"89XFT4TQ8SZCDQX2F7S5XRI6M"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '26216',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sun, 12 Jul 2015 15:19:17 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-bma7028-BMA',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1436714357.147490,VS0,VE504',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving avoscloud-sdk to C:\Users\lenovo\AppData\Roaming\npm-cache\registry.npmjs.org\avoscloud-sdk\.cache.json
+25 verbose getCacheStat cache creation not in flight; initializing
+26 verbose makeCacheDir UID & GID are irrelevant on win32
+27 silly addNameRange number 2 { name: 'avoscloud-sdk', range: '*', hasData: true }
+28 silly addNameRange versions [ 'avoscloud-sdk',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.2.5',
+28 silly addNameRange     '0.2.6',
+28 silly addNameRange     '0.2.7',
+28 silly addNameRange     '0.2.8',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.3.4',
+28 silly addNameRange     '0.3.6',
+28 silly addNameRange     '0.3.7',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.4.5',
+28 silly addNameRange     '0.4.6',
+28 silly addNameRange     '0.4.7',
+28 silly addNameRange     '0.4.9',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5' ] ]
+29 silly addNamed avoscloud-sdk@0.5.5
+30 verbose addNamed "0.5.5" is a plain semver version for avoscloud-sdk
+31 silly mapToRegistry name avoscloud-sdk
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/avoscloud-sdk
+35 verbose addRemoteTarball https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.5.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.5.tgz',
+36 verbose addRemoteTarball   '70de015998b964ce78fc5f6201e63a367362daa4' ]
+37 info retry fetch attempt 1 at 23:19:16
+38 info attempt registry request try #1 at 23:19:16
+39 http fetch GET https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.5.tgz
+40 http fetch 200 https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.5.tgz
+41 silly fetchAndShaCheck shasum 70de015998b964ce78fc5f6201e63a367362daa4
+42 verbose stack Error: shasum check failed for C:\Users\lenovo\AppData\Local\Temp\npm-5404-0ad1e03c\registry.npmjs.org\avoscloud-sdk\-\avoscloud-sdk-0.5.5.tgz
+42 verbose stack Expected: 70de015998b964ce78fc5f6201e63a367362daa4
+42 verbose stack Actual:   b3f936bab403c1dd1ddc7baed9f375a68bdf7eab
+42 verbose stack From:     https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.5.tgz
+42 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:38:8
+42 verbose stack     at ReadStream.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:85:7)
+42 verbose stack     at ReadStream.emit (events.js:129:20)
+42 verbose stack     at _stream_readable.js:908:16
+42 verbose stack     at process._tickCallback (node.js:355:11)
+43 verbose cwd c:\Users\lenovo\Desktop\pin
+44 error Windows_NT 6.3.9600
+45 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "avoscloud-sdk"
+46 error node v0.12.7
+47 error npm  v2.11.3
+48 error shasum check failed for C:\Users\lenovo\AppData\Local\Temp\npm-5404-0ad1e03c\registry.npmjs.org\avoscloud-sdk\-\avoscloud-sdk-0.5.5.tgz
+48 error Expected: 70de015998b964ce78fc5f6201e63a367362daa4
+48 error Actual:   b3f936bab403c1dd1ddc7baed9f375a68bdf7eab
+48 error From:     https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.5.tgz
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]

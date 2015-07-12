@@ -1,5 +1,7 @@
-var user=new AV.User();
 var phoneNoArray=new Array();
+var app ID ="cyl4xo2aqfxt5bod3qn35y1j1y1ilmd0s1w4nlenatq9m6c5";
+var app Key="1c1i0z9nf3d47d54t6hz0kfr3na77rg42ok19oalvag8qg6l";
+var Master Key="130hbfgavtkgbqvwypo38ddqnndkvymsi491i62opcnlxva2";
 
 function createCode(){
   code="";
@@ -82,9 +84,9 @@ function RegisterFirst(phoneNo){
 
 function RegisterSecond(name,avatar,phoneNo,verificationCode,password){
   var user=new AV.User();
-  user.set("name",name);
+  user.set("username",name);
   user.set("avatar",avatar)
-  user.set("phoneNo",phoneNo);
+  user.set("mobilePhoneNumber",phoneNo);
   user.set("password",hash(password));
 
   user.signUp(null,{
